@@ -18,15 +18,8 @@ body {
 
 .body {
     background-color: rgb(33, 33, 33);
-    width: auto;
-    height: auto;
 }
 
-
-.w50 {
-    width: 50%;
-    float: left;
-}
 
 .clear {
     clear: both;
@@ -39,14 +32,13 @@ body>header {
             linear-gradient(to bottom, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.158)),
             linear-gradient(to top, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.007)),
             url(img/bg.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;}
+            background-repeat: no-repeat;
+            background-size: cover;}
     
 
 .logo img {
     width: 180px;
 }
-
 
 nav .sign-in button {
     background-color: #e50914;
@@ -68,9 +60,7 @@ header .container .banner {
     text-align: center;
     color: white;
     margin-top: 150px;
-    padding-bottom: 500px;
-
-   
+    padding-bottom: 480px;
 }
 
 header .container .banner h1 {
@@ -95,7 +85,6 @@ header .container .banner p:last-of-type {
     align-self: center;
     justify-content: center;
     padding: 0 5%;
-    padding-top: 10px;
 }
 
 .input-email input[type=email] {
@@ -148,7 +137,7 @@ nav {
 }
 
 .box-footer .container {
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .box-single {
@@ -157,6 +146,7 @@ nav {
 
 .box-single .box-single-footer {
     margin-right: 45px;
+    margin-left: 5px;
     margin-bottom: 20px;
 }
 
@@ -249,11 +239,6 @@ nav {
     margin: 10px 0;
 }
 
-.box-description a img {
-    width: 25px;
-    margin-right: 10px;
-    border-radius: 3px;
-}
 
 .box-description p {
     margin: 12px 0;
@@ -261,6 +246,7 @@ nav {
 
 .box-description p span {
     color: white;
+    cursor: pointer;
 }
 
 .box-description p:last-child a {
@@ -270,7 +256,8 @@ nav {
 
 .footer-login {
     margin-top: 80px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     background-color: rgba(0, 1, 1, 0.658);
     color: rgb(115, 115, 115);
 }

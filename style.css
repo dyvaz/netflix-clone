@@ -226,6 +226,7 @@ nav {
 
 .form-footer p {
     float: right;
+    cursor:pointer
 }
 
 .box-description {
